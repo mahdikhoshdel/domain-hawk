@@ -241,11 +241,11 @@ Refresh stale cache daily at 09:00:
 3. **Actions** → New:
 
    * **Program/script:** path to your **venv** Python, e.g.
-     `C:\Users\Mohsen\PycharmProjects\whois\.venv\Scripts\python.exe`
+     `C:\path\to\domain-hawk\.venv\Scripts\python.exe`
    * **Add arguments:**
      `-m domaincheck.cli --refresh-all`
    * **Start in:** project folder, e.g.
-     `C:\Users\Mohsen\PycharmProjects\whois`
+     `C:\path\to\domain-hawk`
 4. Save.
 
 ### Linux/macOS (cron)
