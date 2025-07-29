@@ -1,0 +1,13 @@
+[project]
+name = "domaincheck"
+version = "0.1.0"
+description = "Domain availability & expiration with RDAP-first, WHOIS fallback, and caching."
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+  "PyYAML>=6.0.1",
+  "idna>=3.7",
+]
+
+[project.scripts]
+domaincheck = "domaincheck.cli:main"
